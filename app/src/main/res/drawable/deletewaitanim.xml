@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true" xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/delet" android:duration="100"/>
+    <item android:drawable="@drawable/ddelet" android:duration="100"/>
+    <item android:drawable="@drawable/deelet" android:duration="100"/>
+    <item android:drawable="@drawable/dellet" android:duration="100"/>
+    <item android:drawable="@drawable/deleet" android:duration="100"/>
+    <item android:drawable="@drawable/delett" android:duration="100"/>
+    <item android:drawable="@drawable/deletee" android:duration="100"/>
+    <item android:drawable="@drawable/ddeletee" android:duration="100"/>
+    <item android:drawable="@drawable/delette" android:duration="100"/>
+</animation-list>

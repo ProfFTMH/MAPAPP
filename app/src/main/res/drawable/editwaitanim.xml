@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true" xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/e" android:duration="100"/>
+    <item android:drawable="@drawable/ed" android:duration="100"/>
+    <item android:drawable="@drawable/edi" android:duration="100"/>
+    <item android:drawable="@drawable/editt" android:duration="100"/>
+    <item android:drawable="@drawable/edittt" android:duration="100"/>
+    <item android:drawable="@drawable/editttt" android:duration="100"/>
+    <item android:drawable="@drawable/edittttt" android:duration="100"/>
+    <item android:drawable="@drawable/editttttt" android:duration="100"/>
+    <item android:drawable="@drawable/edittttttt" android:duration="100"/>
+    <item android:drawable="@drawable/editttttttt" android:duration="100"/>
+</animation-list>

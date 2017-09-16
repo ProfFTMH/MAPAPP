@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true" xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/zzz1" android:duration="100"/>
+    <item android:drawable="@drawable/zzz2" android:duration="100"/>
+    <item android:drawable="@drawable/zzz3" android:duration="100"/>
+    <item android:drawable="@drawable/zzz3" android:duration="100"/>
+    <item android:drawable="@drawable/zzz4" android:duration="100"/>
+    <item android:drawable="@drawable/zzz5" android:duration="100"/>
+    <item android:drawable="@drawable/zzz6" android:duration="100"/>
+    <item android:drawable="@drawable/zzz7" android:duration="100"/>
+    <item android:drawable="@drawable/zzz8" android:duration="100"/>
+    <item android:drawable="@drawable/zzz9" android:duration="100"/>
+    <item android:drawable="@drawable/zzz10" android:duration="100"/>
+    <item android:drawable="@drawable/zzz11" android:duration="100"/>
+
+</animation-list>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fca2a6"
+    tools:context="com.example.fatemeh.mffb.Profilepage">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text=" heart BEAT                               "
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:background="@drawable/heartb"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="                     pills"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/pill"/>
+
+</LinearLayout>

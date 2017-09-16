@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fatemeh.mffb">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/maplogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".OnBoot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Firstpage" />
+        <activity android:name=".Profilepage" />
+        <activity android:name=".Heartbeatdetail" />
+        <activity android:name=".pillsdetail" />
+        <activity android:name=".Pilllist" />
+        <activity android:name=".Searchpill" />
+        <activity android:name=".Login" />
+        <activity android:name=".Addpill"
+                    android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:name=".fallwarn" />
+        <activity android:name=".Aboutus" />
+        <activity android:name=".emptynotify" />
+        <activity android:name=".editpill" />
+        <activity android:name=".mqtt" />
+
+        <service android:name="org.eclipse.paho.android.service.MqttService"></service>
+        <service android:name=".notificationservice"></service>
+
+        <activity android:name=".dangerousbeat"></activity>
+    </application>
+
+</manifest>

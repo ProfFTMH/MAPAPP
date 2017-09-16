@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true" xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/h (1)" android:duration="100"/>
+    <item android:drawable="@drawable/tick_2" android:duration="100"/>
+    <item android:drawable="@drawable/tick_3" android:duration="100"/>
+    <item android:drawable="@drawable/tick_4" android:duration="100"/>
+    <item android:drawable="@drawable/tick_5" android:duration="100"/>
+    <item android:drawable="@drawable/tick_6" android:duration="100"/>
+    <item android:drawable="@drawable/tick_7" android:duration="100"/>
+    <item android:drawable="@drawable/tick_8" android:duration="100"/>
+    <item android:drawable="@drawable/tick_9" android:duration="100"/>
+    <item android:drawable="@drawable/tick_10" android:duration="100"/>
+    <item android:drawable="@drawable/tick_11" android:duration="100"/>
+    <item android:drawable="@drawable/tick_12" android:duration="100"/>
+    <item android:drawable="@drawable/tick_13" android:duration="100"/>
+    <item android:drawable="@drawable/tick_14" android:duration="100"/>
+    <item android:drawable="@drawable/tick_15" android:duration="100"/>
+    <item android:drawable="@drawable/tick_16" android:duration="100"/>
+    <item android:drawable="@drawable/tick_17" android:duration="100"/>
+
+</animation-list>
+

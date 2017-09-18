@@ -20,9 +20,10 @@
         android:theme="@style/AppTheme">
         <receiver android:name=".OnBoot">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,25 +31,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Firstpage" />
+        <activity android:name=".Firstpage"
+            android:windowSoftInputMode="stateHidden" />
         <activity android:name=".Profilepage" />
         <activity android:name=".Heartbeatdetail" />
         <activity android:name=".pillsdetail" />
         <activity android:name=".Pilllist" />
         <activity android:name=".Searchpill" />
         <activity android:name=".Login" />
-        <activity android:name=".Addpill"
-                    android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity
+            android:name=".Addpill"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity android:name=".fallwarn" />
         <activity android:name=".Aboutus" />
         <activity android:name=".emptynotify" />
         <activity android:name=".editpill" />
         <activity android:name=".mqtt" />
 
-        <service android:name="org.eclipse.paho.android.service.MqttService"></service>
-        <service android:name=".notificationservice"></service>
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+        <service android:name=".notificationservice" />
 
-        <activity android:name=".dangerousbeat"></activity>
+        <activity android:name=".dangerousbeat" />
+        <activity android:name=".Mylist1"></activity>
     </application>
 
 </manifest>

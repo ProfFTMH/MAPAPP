@@ -31,11 +31,10 @@
             android:id="@+id/searchbtn"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:text="Search"
             android:textSize="10sp"
             android:gravity="center"
             android:layout_marginLeft="6dp"
-            android:background="#e4e4e4"
+            android:background="@drawable/search"
 
             />
 
@@ -43,6 +42,13 @@
 
     <ListView
         android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="20dp">
+        tools:listitem="@layout/view_category"
+    </ListView>
+    <ListView
+        android:id="@+id/list1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:dividerHeight="20dp">
